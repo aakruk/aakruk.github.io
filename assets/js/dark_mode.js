@@ -7,10 +7,10 @@ $(document).ready(function() {
     });
 
     let toggleTheme = (theme) => {
-        if (theme == "dark") {
-            setTheme("light");
-        } else {
+        if (theme == "light") {
             setTheme("dark");
+        } else {
+            setTheme("light");
         }
     }
 
